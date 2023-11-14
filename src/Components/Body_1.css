@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300;500&family=Urbanist:wght@200;400;500&display=swap');
+
+.Body_1{
+    /* color: white; */
+    margin: 5% 5%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.news-type{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    cursor: pointer;
+}
+
+.line{
+    height: 1px;
+    width: auto;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    /* background-color: white; */
+    /* border-color: white; */
+}

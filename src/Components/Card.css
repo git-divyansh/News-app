@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200;300;500&family=Urbanist:wght@200;400;500&display=swap');
+  a {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: white;
+  }
+  h1 {
+    text-align: left;
+    font-family: Montserrat, sans-serif;
+    padding: 2% 5%;
+    font-size: 20px;
+  }
+  h2 {
+    text-align: left;
+    /* color: #9E9E9E; */
+    font-style: italic;
+    font-size: 15px;
+  }
+  .card {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    background-color: #171717;
+    color: white;
+    height: auto;
+    margin: 4% auto;
+    max-width: 25vw;
+    text-align: center;
+    border: solid #515050;
+    border-width: thin;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+  }
+  .image{
+    height: 100%;
+    width: 100%;
+    max-width: 93%;
+    border-radius: 5px;
+  }
+  .card__image {
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    max-width: auto;
+    margin: 1% 1%;
+    max-height: 50vh;
+  }
+  .card__copy {
+    cursor: default;
+    padding: 3%;
+  }
+  
+    /* .add{
+      color: #c7c7c5;
+    } */

@@ -1,0 +1,30 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: fit-content;
+}
+
+.container button{
+    color: black;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.toggle-switch {
+    position: relative;
+    width: 75px;
+    display: inline-block;
+    text-align: left;
+}
+
+.moon{
+    height: 1.5rem;
+    width: 1rem;
+}
+
+.sun{
+    height: 1.5rem;
+    width: 1rem;
+}
