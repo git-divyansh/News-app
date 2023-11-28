@@ -2,7 +2,7 @@ import React from 'react'
 import "./Loading_comp2.css"
 import Skeleton_card from './Skeleton_card'
 
-const Loading_comp2 = () => {
+const Loadingcomp2 = () => {
 
   return (
     <div className='skeleton' style={{color: "white"}}>
@@ -16,4 +16,4 @@ const Loading_comp2 = () => {
   )
 }
 
-export default Loading_comp2
+export default Loadingcomp2

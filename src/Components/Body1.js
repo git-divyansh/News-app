@@ -1,7 +1,7 @@
 import React from 'react'
 import './Body_1.css'
 import { useGlobalNightModeContext } from '../Context/ContextBody'
-const Body_1 = ({setCategory}) => {
+const Body1 = ({setCategory}) => {
   const {color} = useGlobalNightModeContext()
   return (
     <div className='Body_1'>
@@ -17,4 +17,4 @@ const Body_1 = ({setCategory}) => {
   )
 }
 
-export default Body_1
+export default Body1

@@ -1,9 +1,7 @@
-import { useGlobalNightModeContext } from '../Context/ContextBody'
+
 import "./Footer.css"
 
 const Footer = () => {
-
-    const {color} = useGlobalNightModeContext();
 
   return (
     <div className='footbar'>

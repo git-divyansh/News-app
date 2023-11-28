@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Navbar.css'
 import ToggleSwitch from './ToggleSwitch'
 import { useGlobalNightModeContext } from '../Context/ContextBody'

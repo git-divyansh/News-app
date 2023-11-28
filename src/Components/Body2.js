@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import Body_1 from './Body_1';
+import Body1 from './Body1';
 import Card from "./Card"
 import "./Body_2.css"
-import Loading_comp2 from './Loading_comp2';
+import Loadingcomp2 from './LoadingComp2';
 
-const Body_2 = () => {
+const Body2 = () => {
     const [news, setNews] = useState({});
     const [category, setCategory] = useState("sports");
     const [isloading, setloading] = useState(false);
@@ -32,12 +32,12 @@ const Body_2 = () => {
 
    return (
     <>
-    <Body_1 
+    <Body1 
         setCategory={setCategory}
     />
     <div className='Body_2'>
         {
-            isloading ? <Loading_comp2 /> : news.articles ? (news.articles.map((info) => {
+            isloading ? <Loadingcomp2 /> : news.articles ? (news.articles.map((info) => {
                 return(
                     info.urlToImage ? (<Card 
                         image = {info.urlToImage}
@@ -48,11 +48,11 @@ const Body_2 = () => {
                         url = {info.url}
                     /> ) : <p />
                 )
-            })) : <Loading_comp2 />
+            })) : <Loadingcomp2 />
         }
     </div>
     </>  
   )
 }
 
-export default Body_2
+export default Body2
