@@ -5,6 +5,9 @@ import "./Body_2.css"
 import Loadingcomp2 from './LoadingComp2';
 
 const Body2 = () => {
+    
+    require('dotenv').config();
+    const API_KEY = process.env.REACT_APP_API_KEY;
     const [news, setNews] = useState({});
     const [category, setCategory] = useState("sports");
     const [isloading, setloading] = useState(false);
@@ -15,7 +18,7 @@ const Body2 = () => {
         const changeNews = async () =>{
             setloading(true)
             try{
-                const response = await fetch(`https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=ce18670ec0554edfb57264776fc6d905`)
+                const response = await fetch(`https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=${API_KEY}`)
                 const result = await response.json();
                 // console.log(result);
                 setNews(result);
